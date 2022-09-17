@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Nunito:wght@200&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body {
+	font-family: DynaPuff, cursive;
+	font-weight: 300;
+	color: #079997;
+}
+
+#logo {
+	float: left;
+	margin-right: 5%;
+	margin-left: 20%;
+	width: min(50vw, 200px)
+}
+
+#menu {
+	font-size: 140%;
+}
+
+#menu,
+#logo {
+	line-height: 75px;
+}
+
+#menu li {
+	list-style-type: none;
+	margin-right: 55px;
+	margin-top: 55px;
+	float: left;
+
+}
+
+/* navigation menu border */
+.nav-box {
+	border: none solid 4px;
+	border-radius: 20%;
+	padding: 4px;
+	background-color: #fff;
+
+}
+
+#menu a {
+	text-decoration: none;
+	color: inherit
+}
+
+#menu a:hover {
+	border-bottom: 4px solid #079997;
+}
+
+.active {
+	border-bottom: 4px solid #079997;
+
+}
+
+#header-background {
+	height: 200px;
+	width: 100%;
+	background: url(../images/header-background.png) center center;
+}
+
+hr {
+	border: 1px solid #f6a4a6;
+	width: 100%;
+	margin: 5px 0;
+}
+
+h1 {
+	text-align: center;
+	color: #676eb2;
+	text-transform: uppercase;
+	padding: 5px;
+}
+
+/* first section of the Home page style */
+#first-section {
+	height: fit-content;
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	gap: 40px;
+}
+
+#left-text {
+	height: 100%;
+	margin: auto;
+	width: 100%;
+}
+
+#right-video {
+	height: 100%;
+    margin: auto;
+    width: 100%;
+}
+#video {
+    width: 100%;
+    height: 100%;
+}
+
+#paragraph-box {
+	font-family: Nunito, sans-serif;
+	font-size: 150%;
+	border: none;
+	border-radius: 25px;
+	padding: 10px;
+	background-color: #676eb2;
+	color: #fff;
+	text-align: center;
+	margin: 5%;
+
+}
+
+/*second section of the Home page */
+#second-section {
+	height: fit-content;
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	gap: 50px;
+}
+
+#second-text {
+	height: 100%;
+	width: 50%;
+	margin: auto;
+}
+
+#left-text-box {
+	font-family: Nunito, sans-serif;
+	font-size: 150%;
+	border: none;
+	border-radius: 25px;
+	background-color: #676eb2;
+	color: #fff;
+	text-align: center;
+	margin: 5%;
+	padding: 20px;
+}
+
+#left-circle-container {
+	width: 300px;
+	height: 300px;
+	padding: 30px;
+	border-style: solid;
+	border-color: #f6a4a6;
+	border-width: 1px;
+	border-radius: 50%;
+
+}
+
+#left-circle-cover {
+	background: url(../images/circle-photo-2.jpg) no-repeat center center;
+	height: 100%;
+	border-radius: 50%;
+}
+
+/* third section of Home page */
+
+#third-section {
+	height: fit-content;
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	gap: 50px;
+}
+
+#third-text {
+	height: 100%;
+	width: 50%;
+}
+
+#right-circle-container {
+	width: 300px;
+	height: 300px;
+	padding: 30px;
+	border-style: solid;
+	border-color: #f6a4a6;
+	border-width: 1px;
+	border-radius: 50%;
+}
+
+#right-text-box {
+	font-family: Nunito, sans-serif;
+	font-size: 150%;
+	border: none;
+	border-radius: 25px;
+	padding: 20px;
+	background-color: #676eb2;
+	color: #fff;
+	text-align: center;
+	margin: 5%;
+}
+
+#right-circle-cover {
+	background: url(../images/circle-photo1.jpg) no-repeat center center;
+	height: 100%;
+	border-radius: 50%;
+}
+
+/* footer */
+
+footer {
+	height: 150px;
+}
+
+footer ul {
+	text-align: center;
+}
+
+footer ul>li {
+	display: inline;
+}
+
+footer i {
+	font-size: 160%;
+	margin: 1%;
+	padding: 5%;
+	color: #676eb2;
+}
+
+/* services */
+#services-h2 {
+	background-color: rgba(169, 219, 218, 0.2);
+	width: 100%;
+	padding-bottom: 3%;
+}
+
+/* transport and english lessons section */
+
+#transport-english {
+	background-color: rgba(103, 110, 178, 0.3);
+	height: fit-content;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin: auto;
+	gap: 20px;
+}
+
+/*transport*/
+#transport ul {
+	border: 2px solid #fff;
+	border-radius: 25px;
+	color: #676eb2;
+	margin: 5px;
+	margin-left: 10%;
+}
+
+#transport h3 {
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
+#transport li {
+	list-style-type: circle;
+	margin-left: 10%;
+}
+
+
+/*english lessons*/
+#english ul {
+	border: 2px solid #fff;
+	border-radius: 25px;
+	color: #676eb2;
+	margin: 5px;
+	margin-right: 20%;
+	margin-left: 10%;
+}
+
+#english h3 {
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+#english li {
+	list-style-type: circle;
+	margin-left: 10%;
+
+}
+
+
+
+/* catering and medical care section */
+#cathering-medical {
+	background-color: rgba(7, 153, 151, 0.3);
+	height: fit-content;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin: auto;
+	gap: 50px;
+}
+
+/*catering*/
+
+#cathering ul {
+	border: 2px solid #fff;
+	border-radius: 25px;
+	color: #676eb2;
+	margin: 5px;
+	margin-left: 10%;
+}
+
+#cathering h3 {
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+#cathering li {
+	list-style-type: circle;
+	margin-left: 10%;
+}
+
+/*medical care*/
+
+#medical ul {
+	border: 2px solid #fff;
+	border-radius: 25px;
+	color: #676eb2;
+	margin: 5px;
+	margin-right: 10%;
+	margin-left: 20%;
+}
+
+#medical h3 {
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
+#medical li {
+	list-style-type: circle;
+	margin-left: 10%;
+}
+
+/* outhoor activities and other section */
+
+#outdoor-other {
+	background-color: rgba(246, 164, 166, 0.3);
+	height: fit-content;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin: auto;
+	gap: 50px;
+}
+
+/*outdoor activities*/
+
+#outdoor ul {
+	border: 2px solid #fff;
+	border-radius: 25px;
+	color: #676eb2;
+	margin: 10px;
+	margin-right: 20%;
+	margin-left: 10%;
+	padding: 4px;
+}
+
+#outdoor h3 {
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+#outdoor li {
+	list-style-type: circle;
+	margin-left: 10%;
+}
+
+
+/*other activities*/
+
+#other ul {
+	border: 2px solid #fff;
+	border-radius: 25px;
+	color: #676eb2;
+	margin: 5px;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding: 4px;
+}
+
+#other h3 {
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+#other li {
+	list-style-type: circle;
+	margin-left: 10%;
+}
+
+/* gallery */
+#gallery {
+	clear: both;
+	line-height: 0;
+	column-count: 4;
+	column-gap: 0;
+}
+
+#gallery>img {
+	width: 100%;
+}
+
+/* contact page */
+
+/* address and form */
+#address-form {
+	height: fit-content;
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	gap: 50px;
+
+}
+
+#address-text {
+	height: 100%;
+	width: 55%;
+}
+
+#address {
+	font-family: Nunito, sans-serif;
+	font-size: 150%;
+	border: none;
+	border-radius: 25px;
+	padding: 10px;
+	background-color: #676eb2;
+	color: #fff;
+	text-align: center;
+}
+
+/* form */
+
+#name {
+	width: 100%;
+	border: #676eb2 2px solid;
+	border-radius: 10px;
+}
+
+#email {
+	width: 100%;
+	border: #676eb2 2px solid;
+	border-radius: 10px;
+}
+
+#question-box {
+	width: 100%;
+	border: #676eb2 2px solid;
+	border-radius: 10px;
+}
+
+#reset {
+	color: #fff;
+	border: #676eb2 solid 2px;
+	border-radius: 5px;
+	background-color: #079997;
+	padding: 5px;
+}
+
+#reset :hover {
+	background-color: #fff;
+	color: #676eb2
+}
+
+#submit {
+	color: #fff;
+	border: #079997 solid 2px;
+	border-radius: 5px;
+	background-color: #676eb2;
+	margin-left: 50%;
+	padding: 5px;
+}
+
+#submit :hover {
+	background-color: #fff;
+	color: #676eb2
+}
+
+/* h2 contact page style */
+h2 {
+	text-align: center;
+}
+
+/* map */
+#map {
+	width: 100%;
+    margin: auto;
+    height: 400px;
+}
+#mapview {
+width: 100%;
+height: 100%;
+}
+/* bottom photo */
+#bottom-photo {
+    width: 100%;
+}
+#rainbow {
+    width: 100%;
+}
+
+/* media quieries */
+/*media quieries for medium screen sizes*/
+
+@media screen and (max-width: 1200px) {
+
+	/* header and logo */
+	#menu {
+		clear: left;
+		float: left;
+		margin-left: 30px;
+		margin-bottom: 20px;
+		line-height: 25px;
+	}
+
+	h1 {
+		text-align: center;
+		width: 80%;
+        margin: auto;
+	}
+
+	/* home page first section */
+	#first-section {
+		flex-direction: column;
+		width: 100%;
+        margin: auto;
+	}
+
+	#right-video {
+		width: 100%;
+		margin: auto;
+	}
+
+
+	/* home page second section */
+	#second-section {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	#second-text {
+		width: 100%;
+        margin: auto;
+	}
+
+	/* home page third section */
+	#third-section {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	#third-text {
+		width: 100%;
+	}
+
+	/* Services page */
+	h2 {
+		text-align: center;
+		width: 100%;
+	}
+
+	#transport-english {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	#cathering-medical {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	#outdoor-other {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	/* contact page */
+	#address-form {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	#address-text {
+		width: 100%;
+	}
+    #form {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+/* media quieries for small screen sizes*/
+@media screen and (max-width: 950px) {
+
+	/* header and logo */
+	#menu {
+		clear: left;
+		float: left;
+		display: inline;
+		margin-left: 30px;
+		margin-bottom: 20px;
+		line-height: 25px;
+		width: fit-content;
+	}
+
+	/* h1 text line */
+	h1 {
+		text-align: center;
+		width: 100%;
+	}
+
+	/* home page first section */
+    h3 {
+        padding: 5px;
+    }
+	#first-section {
+		flex-direction: column;
+		width: 100%;
+	}
+    
+	#right-video {
+		width: 100%;
+        margin: auto;
+	}
+    /* home page first section */
+	#second-section {
+		flex-direction: column;
+		width: 100%;
+	}
+    
+    /* home page third section */
+	#third-section {
+		flex-direction: column;
+		width: 100%;
+	}
+    /* services page transport and english lessons */
+	#transport-english {
+		flex-direction: column;
+		width: 100%;
+	}
+	/*car image*/
+    #car {
+	    width: 100%;
+    }
+    #carimg {
+        width: 100%;
+	    margin: auto;
+    }
+	/*english lessons image*/
+       #class {
+	      width: 100%;
+    }
+      #english-class {
+          width: fit-content;
+	      margin: auto;
+    }
+    /* services page catering and medical services */
+	#cathering-medical {
+		flex-direction: column;
+		width: 100%;
+	}
+    /* services page outdoor and other activities */
+	#outdoor-other {
+		flex-direction: column;
+		width: 100%;
+	}
+	/*outdoor photo*/
+    #outdoor-img {
+        width: 100%;
+    }
+    #garden {
+        width: 100%;
+	    margin: auto;
+    }
+	/*other activities photo*/
+    #activities {
+        width: 100%;
+    }
+    #other-activities {
+        width: 100%;
+	    margin: auto;
+    }
+    /* contact page form and address*/
+	#address-form {
+		flex-direction: column;
+		width: 100%;
+	}
+    #form {
+        width: 90%;
+        margin: auto;
+    }
+
+	#address-text {
+		width: 100%;
+	}
+
+}
