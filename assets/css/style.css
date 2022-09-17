@@ -442,54 +442,6 @@ footer i {
 	color: #fff;
 	text-align: center;
 }
-
-/* form */
-
-#name {
-	width: 100%;
-	border: #676eb2 2px solid;
-	border-radius: 10px;
-}
-
-#email {
-	width: 100%;
-	border: #676eb2 2px solid;
-	border-radius: 10px;
-}
-
-#question-box {
-	width: 100%;
-	border: #676eb2 2px solid;
-	border-radius: 10px;
-}
-
-#reset {
-	color: #fff;
-	border: #676eb2 solid 2px;
-	border-radius: 5px;
-	background-color: #079997;
-	padding: 5px;
-}
-
-#reset :hover {
-	background-color: #fff;
-	color: #676eb2
-}
-
-#submit {
-	color: #fff;
-	border: #079997 solid 2px;
-	border-radius: 5px;
-	background-color: #676eb2;
-	margin-left: 50%;
-	padding: 5px;
-}
-
-#submit :hover {
-	background-color: #fff;
-	color: #676eb2
-}
-
 /* h2 contact page style */
 h2 {
 	text-align: center;
@@ -597,10 +549,7 @@ height: 100%;
 	#address-text {
 		width: 100%;
 	}
-    #form {
-        width: 90%;
-        margin: auto;
-    }
+
 }
 
 /* media quieries for small screen sizes*/
