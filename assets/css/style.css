@@ -415,7 +415,7 @@ footer i {
 
 /* contact page */
 
-/* address and form */
+/* address */
 #address-form {
 	height: fit-content;
 	display: flex;
@@ -423,13 +423,13 @@ footer i {
 	width: 80%;
 	margin: auto;
 	margin-top: 50px;
-	gap: 50px;
+	
 
 }
 
 #address-text {
 	height: 100%;
-	width: 55%;
+	width: 100%;
 }
 
 #address {
